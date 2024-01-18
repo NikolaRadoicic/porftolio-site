@@ -1,0 +1,94 @@
+*{
+
+    box-sizing: border-box;
+}
+
+body{
+
+    padding: 0;
+    margin: 0;
+    display: grid;
+    font-family: 'Oswald', sans-serif;
+    color: #66bfbf;
+
+}
+
+.nav{
+
+    font-size: 25px;
+
+}
+
+.top-container{
+
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    background-color: #e4f9f5;
+    width: 100%;
+    height: 800px;
+    
+
+
+}
+
+.gornji-oblak{
+
+    margin-left: 100px;
+    display: inline-flex;
+    height: 100px;
+    width: 50px;
+
+}
+
+
+
+
+.header-1{
+
+    display: flex;
+    justify-content: center;
+    color: #66bfbf;
+    font-weight: bold;
+    
+
+}
+
+.header-2{
+
+    display: flex;
+    justify-content: center;
+    color: #66bfbf;
+    
+
+}
+
+.nav-item{
+
+    color: #66bfbf;
+
+}
+
+.planina{
+
+    text-align: center;
+    margin-bottom: -40px;
+
+
+}
+
+.middle-container{
+
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    margin-top: 100px;
+
+}
+
+.intro{
+
+    display: flex;
+    justify-content: center;
+
+}
